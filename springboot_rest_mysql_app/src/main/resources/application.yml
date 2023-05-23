@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: manager
+    url: jdbc:mysql://localhost:3306/sbms1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
